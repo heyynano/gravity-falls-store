@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rnd.apparel | Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-links">
+                    <a href="/women" class="nav-link">Women</a>
+                    <a href="/men" class="nav-link">Men</a>
+                    <a href="/sale" class="nav-link">Sale</a>
+                </div>
+                
+                <a href="/" class="logo">rnd.apparel</a>
+                
+                <div class="nav-actions">
+                    <div class="login-btn">
+                        <span>Log In</span>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <button class="icon-btn" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="icon-btn cart-btn" aria-label="Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <a href="/product/womens-oversized-sweatshirt" class="product-link">
+                    <div class="product-image-container">
+                        <div class="discount-badge">40% OFF</div>
+                        <img src="https://via.placeholder.com/400" alt="Women's Oversized Sweatshirt" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Women's Oversized Sweatshirt</h3>
+                        <div class="product-price">
+                            <span class="original-price">$85.00</span>
+                            <span class="sale-price">$51.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <a href="/product/drawstring-linen-pants" class="product-link">
+                    <div class="product-image-container">
+                        <img src="https://via.placeholder.com/400" alt="Drawstring Linen Pants" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Drawstring Linen Pants</h3>
+                        <div class="product-price">
+                            <span class="regular-price">$45.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <a href="/product/bucket-hat" class="product-link">
+                    <div class="product-image-container">
+                        <div class="discount-badge">70% OFF</div>
+                        <img src="https://via.placeholder.com/400" alt="Bucket Hat" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bucket Hat</h3>
+                        <div class="product-price">
+                            <span class="original-price">$30.00</span>
+                            <span class="sale-price">$9.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <a href="/product/unisex-oversized-t-shirt" class="product-link">
+                    <div class="product-image-container">
+                        <div class="discount-badge">30% OFF</div>
+                        <img src="https://via.placeholder.com/400" alt="Unisex Oversized T-Shirt" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Unisex Oversized T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="original-price">$40.00</span>
+                            <span class="sale-price">$28.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
